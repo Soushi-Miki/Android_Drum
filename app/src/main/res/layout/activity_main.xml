@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_row="0"
+    android:layout_column="1"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/osyare" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="729dp"
+        android:layout_height="391dp"
+        app:columnCount="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:rowCount="2">
+
+        <ImageButton
+            android:id="@+id/tom4"
+            android:layout_width="127dp"
+            android:layout_height="234dp"
+            android:background="#00000000"
+            android:onClick="tom4"
+            android:scaleType="fitCenter"
+            app:layout_column="0"
+            app:layout_gravity="center"
+            app:layout_row="0"
+            app:srcCompat="@drawable/wadaiko" />
+
+        <ImageButton
+            android:id="@+id/cymbal1"
+            android:layout_width="98dp"
+            android:layout_height="248dp"
+            android:background="#00000000"
+            android:onClick="cymbal1"
+            android:scaleType="fitCenter"
+            app:layout_column="1"
+            app:layout_gravity="center"
+            app:layout_row="0"
+            app:srcCompat="@drawable/shinbaru" />
+
+        <ImageButton
+            android:id="@+id/tom1"
+            android:layout_width="123dp"
+            android:layout_height="251dp"
+            android:background="#00000000"
+            android:onClick="tom1"
+            android:scaleType="fitCenter"
+            app:layout_column="2"
+            app:layout_gravity="center"
+            app:layout_row="0"
+            app:srcCompat="@drawable/taiko" />
+
+        <ImageButton
+            android:id="@+id/tom2"
+            android:layout_width="119dp"
+            android:layout_height="252dp"
+            android:background="#00000000"
+            android:onClick="tom2"
+            android:scaleType="fitCenter"
+            app:layout_column="3"
+            app:layout_gravity="center"
+            app:layout_row="0"
+            app:srcCompat="@drawable/taiko" />
+
+        <ImageButton
+            android:id="@+id/cymbal2"
+            android:layout_width="135dp"
+            android:layout_height="248dp"
+            android:background="#00000000"
+            android:onClick="cymbal2"
+            android:scaleType="fitCenter"
+            app:layout_column="4"
+            app:layout_gravity="center"
+            app:layout_row="0"
+            app:srcCompat="@drawable/shinbaru" />
+
+        <ImageButton
+            android:id="@+id/snare"
+            android:layout_width="125dp"
+            android:layout_height="130dp"
+            android:background="#00000000"
+            android:onClick="snare"
+            android:scaleType="fitCenter"
+            app:layout_column="0"
+            app:layout_gravity="center"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kodaiko" />
+
+        <ImageButton
+            android:id="@+id/hihat"
+            android:layout_width="106dp"
+            android:layout_height="122dp"
+            android:background="#00000000"
+            android:onClick="hihat"
+            android:scaleType="fitCenter"
+            app:layout_column="1"
+            app:layout_gravity="center"
+            app:layout_row="1"
+            app:srcCompat="@drawable/shinbaru" />
+
+        <ImageButton
+            android:id="@+id/Bass"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="bass"
+            android:scaleType="fitCenter"
+            app:layout_column="2"
+            app:layout_columnSpan="2"
+            app:layout_gravity="center"
+            app:layout_row="1"
+            app:srcCompat="@drawable/bass" />
+
+        <ImageButton
+            android:id="@+id/tom3"
+            android:layout_width="130dp"
+            android:layout_height="134dp"
+            android:background="#00000000"
+            android:onClick="tom3"
+            android:scaleType="fitCenter"
+            app:layout_column="4"
+            app:layout_gravity="center"
+            app:layout_row="1"
+            app:srcCompat="@drawable/taiko" />
+
+        <ImageButton
+            android:id="@+id/cymbal3"
+            android:layout_width="120dp"
+            android:layout_height="126dp"
+            android:background="#00000000"
+            android:onClick="cymbal3"
+            android:scaleType="fitCenter"
+            app:layout_column="5"
+            app:layout_gravity="center"
+            app:layout_row="1"
+            app:srcCompat="@drawable/shinbaru" />
+
+        <ImageButton
+            android:id="@+id/cymbal4"
+            android:layout_width="119dp"
+            android:layout_height="250dp"
+            android:background="#00000000"
+            android:onClick="cymbal4"
+            android:scaleType="fitCenter"
+            app:layout_column="5"
+            app:layout_gravity="center"
+            app:layout_row="0"
+            app:srcCompat="@drawable/suzu" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
